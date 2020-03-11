@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Spartan:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="website">
+ 
+        <div id="wrapper" style="left: 0;">
+            <div class="circle icon">
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </div>
+        </div>
+        
+        <div class="filter-icon">
+            <a href="#"><i class="fas fa-filter fa-2x"></i></a>
+        </div>
+        <nav class="navigation">
+            <div>
+                <a href="../index.html"><img src="../aykandod-img/1.png" alt=""></a>
+            </div>
+            <div>
+                <li><i class="fas fa-search"></i></li>
+                <li><input type="text" placeholder="Kelime, ilan no veya lokasyon ile arama yap"></li>
+                <li><a href=""><i class="fas fa-arrow-right"></i></a></li>
+            </div>
+            <div class="nav3">
+                <li><a href="../pages/a.html">KURUMSAL</a></li>
+                <li><a href="../pages/car-detail.html">KAMPANYALAR</a></li>
+                <li><a href="">ŞUBELER</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">İLETİŞİM</a></li>
+                <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+            </div>
+        </nav>
+        <div class="homebar">
+            <a href=""><i class="fas fa-home fa-2x"></i></a><a href="">İkinci el araçlar </a>/ <a href="">Audi</a>
+        </div>
+        <section class="cars">
+
+            <div class="cars-filter-left">
+
+                <li>
+                    <button class="accordion">Tüm 2.El <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+
+                        <a href="">Otomobil <span>(2455)</span></a>
+                        <a href="">Arazi,SUV,Pick-up <span>(2455)</span></a>
+                        <a href="">Minivan,Panelvan <span>(2455)</span></a>
+                        <a href="">Ticari Araç <span>(2455)</span></a>
+                        <a href="">Motorsiklet <span>(2455)</span></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Fiyat <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <section class="range-slider2">
+                            <span>Fiyat Aralığı</span> <br>
+                            <span class="rangeValues2"></span>
+                            <input id="inp" value="500" min="500" max="500000" step="1250" type="range">
+                            <input id="inp" value="500000" min="500" max="500000" step="1250" type="range">
+
+                        </section>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Adres <span><i class="fas fa-chevron-down"></i></span></button>
+
+
+
+                    <div class="panel">
+                        <form id="formul">
+                            <input class="chosen-value" type="text" value="" placeholder="Type to filter">
+                            <ul class="value-list">
+                                <li>Alabama</li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                                <li>Connecticut</li>
+                                <li>Delaware</li>
+                                <li>Florida</li>
+                                <li>Georgia</li>
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                                <li>Illinois</li>
+                                <li>Indiana</li>
+                                <li>Iowa</li>
+                                <li>Kansas</li>
+                                <li>Kentucky</li>
+                                <li>Louisiana</li>
+                                <li>Maine</li>
+                                <li>Maryland</li>
+                                <li>Massachusetts</li>
+                                <li>Michigan</li>
+                                <li>Minnesota</li>
+                                <li>Mississippi</li>
+                                <li>Missouri</li>
+                                <li>Montana</li>
+                                <li>Nebraska</li>
+                                <li>Nevada</li>
+                                <li>New Hampshire</li>
+                                <li>New Jersey</li>
+                                <li>New Mexico</li>
+                                <li>New York</li>
+                                <li>North Carolina</li>
+                                <li>North Dakota</li>
+                                <li>Ohio</li>
+                                <li>Oklahoma</li>
+                                <li>Oregon</li>
+                                <li>Pennsylvania</li>
+                                <li>Rhode Island</li>
+                                <li>South Carolina</li>
+                                <li>South Dakota</li>
+                                <li>Tennessee</li>
+                                <li>Texas</li>
+                                <li>Utah</li>
+                                <li>Vermont</li>
+                                <li>Virginia</li>
+                                <li>Washington</li>
+                                <li>West Virginia</li>
+                                <li>Wisconsin</li>
+                                <li>Wyoming</li>
+                            </ul>
+                        </form>
+
+                    </div>
+
+                </li>
+                <li>
+                    <button class="accordion">Yıl <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Km <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Marka<span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <button class="accordion">Ozel İlanlar <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Fotograflı İlanlar <span><i
+                                class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li> -->
+                <li>
+                    <button class="accordion">Anahtar Kelime <span><i class="fas fa-chevron-down"></i></span></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="">ARA</a>
+                </li>
+            </div>
+            <div class="cars-filter-right">
+                <p id="searching">"<span>Audi</span>" Arama sonucunuz veya başka bir arama yapın</p>
+                <div id="searching2">
+                    <p><i class="fas fa-search"></i>Arama için <span>28</span> sonuç</p>
+                </div>
+
+                <section class="section-4" style="width: 90%;">
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="section-4-cards" href="">
+                        <div>
+                            <img src="../aykandod-img/8.png" alt="">
+                        </div>
+                        <div>
+                            <p>AUDI RS4 Avant</p>
+                            <p>135.000 TL</p>
+                        </div>
+                        <div>
+                            <p>Adana</p>
+                            <p>2017</p>
+                        </div>
+                        <div>
+                            <div><img src="../aykandod-img/24kobe.png" alt=""></div>
+                            <div>
+                                <p>128.000 km</p>
+                                <p>Benzinli</p>
+                                <p>Otamatik</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- <div><a href="">DAHA FAZLA GOSTER <i class="fas fa-arrow-down"></i></a></div> -->
+                </section>
+                <div class="pages-icons">
+                    <div>
+                        Toplam <span>50</span> sayfa içerisinde <span>2</span>. sayfadasınız.
+                    </div>
+                    <div>
+                        <a href="">ÖNCEKİ</a>
+                        <a href="">1️</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">SONRAKİ</a>
+                    </div>
+                    <div>
+                        <a href="">Her sayfada 20 sonuç göster</a> <a href="">Her sayfada 50 sonuç göster</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-2" style="margin-top: 20px; margin-bottom: 20px;">
+            <div class="section-2-cards">
+                <div><img src="../aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="../aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="../aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="../aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <footer class="foot">
+            <div class="foot-mean">
+                <div>
+                    <a href=""><img src="../aykandod-img/19.png" alt=""></a>
+                </div>
+                <div>
+                    <li><a href="">KURUMSAL</a></li>
+                    <li><a href="">KAMPANYALAR</a></li>
+                    <li><a href="">ŞUBELER</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">İLETİŞİM</a></li>
+                </div>
+                <div>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+                <div>
+                    <a href=""> <img src="../aykandod-img/20.png" alt=""></a>
+                    <a href=""> <img src="../aykandod-img/21.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script src="../jsfiles/app.js"></script>
+    </div>
+</body>
+
+</html>

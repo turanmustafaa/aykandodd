@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Spartan:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="website">
+      <button class="prev-icon1"><i class="fas fa-arrow-left"></i></button>
+        <div id="wrapper">
+            <div class="circle icon">
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </div>
+        </div>
+        <nav class="navigation">
+            <div>
+                <a href=""><img src="./aykandod-img/1.png" alt=""></a>
+            </div>
+            <div>
+                <li><i class="fas fa-search"></i></li>
+                <li><input type="text" placeholder="Kelime, ilan no veya lokasyon ile arama yap"></li>
+                <li><a href=""><i class="fas fa-arrow-right"></i></a></li>
+            </div>
+            <div class="nav3">
+                <li><a href="./pages/a.html">KURUMSAL</a></li>
+                <li><a href="./pages/car-detail.html">KAMPANYALAR</a></li>
+                <li><a href="">ŞUBELER</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">İLETİŞİM</a></li>
+                <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+            </div>
+        </nav>
+        <!-- POSİTİON ABSOLUTE BACGROUND SLİDER OLUCAK -->
+        <section class="slider-bg">
+            <img src="./aykandod-img/3.png" alt="">
+        </section>
+
+        <section class="section-1">
+
+            <div class="card-1">
+                <div>
+                    <div style="margin-left: 20px;"><img src="./aykandod-img/22.png" alt="">İLAN ARA</div>
+                </div>
+
+                <div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Marka Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Model Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Vites Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Yakıt Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <section class="range-slider">
+                            <span>Fiyat Aralığı</span>
+                            <span class="rangeValues"></span>
+                            <input id="inp" value="500" min="500" max="500000" step="1250" type="range">
+                            <input id="inp" value="500000" min="500" max="500000" step="1250" type="range">
+
+                        </section>
+                    </div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Lokasyon Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <select class="dropdown-select">
+                            <option value="volvo">Şehir Seçiniz</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <a href="">
+                        <div id="search-card-1"><i class="fas fa-search"></i>ARA</div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="card-2 parallax" data-speed="-4">
+                <img src="./aykandod-img/2.png" alt="">
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="section-2-cards">
+                <div><img src="./aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="./aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="./aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+            <div class="section-2-cards">
+                <div><img src="./aykandod-img/4.png" alt=""></div>
+                <div>
+                    <div>
+                        <h5>Araç Almak İstiyorum</h5><br>
+                        <p>Araç fiyatlari istediginiz an hemen cebinizde</p>
+                    </div>
+                    <div><a href="">Fiyat Teklifi Alın</a></div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-after">
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <a href="">
+                <p>Tüm İlanlar</p>
+                <p>(155.886)</p>
+            </a>
+            <div><a href="">Daha fazla kategori goster <i class="fas fa-chevron-down fa-lg"></i></a></div>
+        </section>
+        <section class="section-3">
+            <div>
+                <h2>İKİNCİ EL VİTRİN</h2>
+            </div>
+            <div><a href="">Tüm vitrini gör</a></div>
+        </section>
+
+        <section class="section-4">
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+            <a class="section-4-cards" href="">
+                <div>
+                    <img src="./aykandod-img/8.png" alt="">
+                </div>
+                <div>
+                    <p>AUDI RS4 Avant</p>
+                    <p>135.000 TL</p>
+                </div>
+                <div>
+                    <p>Adana</p>
+                    <p>2017</p>
+                </div>
+                <div>
+                    <div><img src="./aykandod-img/24kobe.png" alt=""></div>
+                    <div>
+                        <p>128.000 km</p>
+                        <p>Benzinli</p>
+                        <p>Otamatik</p>
+                    </div>
+                </div>
+            </a>
+
+            <div><a href="">DAHA FAZLA GOSTER <i class="fas fa-arrow-down"></i></a></div>
+        </section>
+        <section class="section-5">
+            <div class="section-5-cards">
+                <img src="./aykandod-img/9.png" alt="">
+                <div>
+                    <p>ONLİNE SERVİS RANDEVU</p>
+                    <p>Aykan Motors ile Sıfır aracınızı seçme zamanı!</p>
+                </div>
+                <div>
+                    <a href="">İNCELE <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="section-5-cards">
+                <img src="./aykandod-img/10.png" alt="">
+                <div>
+                    <p>ONLİNE SERVİS RANDEVU</p>
+                    <p>Aykan Motors ile Sıfır aracınızı seçme zamanı!</p>
+                </div>
+                <div>
+                    <a href="">İNCELE <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section-6">
+            <div>
+                <p>BİZE ULAŞIN</p>
+                <p>Formu Doldurun Size Hemen Ulaşalım</p>
+            </div>
+            <div>
+                <form action="#">
+                    <div>
+                        <div><input type="text" placeholder="Adınız ve Soyadınız .." name="name" required></div>
+                        <div><input type="text" placeholder="Email Adresiniz" name="email" required></div>
+                        <div><input type="text" placeholder=" Telefon Numaranız" name="phonenumber" required></div>
+                    </div>
+
+                    <div>
+                        <div><textarea name="" id="" placeholder="Mesajınız.." required></textarea></div>
+                        <div id="hover"><a href="" type="submit">GONDER <i class="fas fa-arrow-right"></i> </a></div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <section class="section-7">
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""><img src="./aykandod-img/12.png" alt=""></a></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </section>
+
+        <footer class="foot">
+            <div class="foot-mean">
+                <div>
+                    <a href=""><img src="./aykandod-img/19.png" alt=""></a>
+                </div>
+                <div>
+                    <li><a href="">KURUMSAL</a></li>
+                    <li><a href="">KAMPANYALAR</a></li>
+                    <li><a href="">ŞUBELER</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">İLETİŞİM</a></li>
+                </div>
+                <div>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+                <div>
+                    <a href=""> <img src="./aykandod-img/20.png" alt=""></a>
+                    <a href=""> <img src="./aykandod-img/21.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script src="./jsfiles/app.js"></script>
+    </div>    
+</body>
+
+</html>
