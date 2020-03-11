@@ -4,8 +4,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-size: 11px;
-    color: rgb(61, 61, 61);
+    color: rgb(15, 14, 14);
     text-decoration: none;
+    font-weight: 600;
 }
 
 
@@ -23,6 +24,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.bx-wrapper{
+  margin-bottom: 10px !important;
+}
+.bx-wrapper .bx-controls-direction a{
+  z-index: 5 !important;
 }
 
 /* .bx-pager a {
@@ -183,6 +190,18 @@ body {
 .navigation div:nth-child(2) li:nth-child(3) i {
     font-size: 18px;
 }
+.navigation div:nth-child(2) li:nth-child(3) i:hover{
+  animation: goanime .3s ease-in-out;
+}
+@keyframes goanime{
+  0%,100%{
+    padding-left: 0;
+  }
+  50%{
+    padding-left: 20px;
+
+  }
+}
 
 .navigation div:nth-child(3) li {
     margin-right: 10px;
@@ -192,6 +211,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: whitesmoke;
+    font-size: 12px;
 }
 
 .navigation div:nth-child(3) li a i {
@@ -217,7 +237,7 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: max-content;
     align-items: flex-end;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -265,9 +285,9 @@ body {
 }
 
 .section-1 .card-1 .dropdown-select {
-    width: 200px;
+    width: 230px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 2px;
     outline: none;
 }
 
@@ -310,7 +330,7 @@ section.range-slider input[type="range"] {
     background: white;
     box-shadow: inset 0 1px 0 0 #cdc6c6, inset 0 -1px 0 0 #d9d4d4;
     left: 0;
-    width: 200px;
+    width: 230px;
     outline: none;
     height: 2px;
     margin: 0;
@@ -342,7 +362,7 @@ section.range-slider input[type="range"]::-webkit-slider-thumb {
     text-align: center;
     margin-top: 5px;
     justify-content: space-around;
-    width: 200px;
+    width: 230px;
     font-size: 13px;
     padding-left: 10px;
     color: white;
@@ -1912,7 +1932,7 @@ section.range-slider2 input[type="range"]::-webkit-slider-thumb {
         overflow-x: hidden;
         top: 0;
     }
-
+    
     .toggleclass-filter {
         box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.29);
         pointer-events: all;
@@ -1928,6 +1948,9 @@ section.range-slider2 input[type="range"]::-webkit-slider-thumb {
     }
     .car-detail-2-left-right{
         padding: 0px;
+    }
+    .cars-filter-right #searching{
+      margin-top: 20px;
     }
 
     /* **************************************************************************************CAR-DETAIL.HTML****** */
